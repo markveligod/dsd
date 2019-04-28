@@ -1,0 +1,1 @@
+call C:\Users\markveligod\AppData\Local\Programs\Python\Python37\Scripts\pyinstaller.exe webmenu.py --onefile

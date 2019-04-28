@@ -1,0 +1,108 @@
+QWidget{
+	background-color: #323232;
+	color: #b1b1b1
+}
+QLineEdit{
+	background-color: rgb(100,100,100);
+	border: 1px solid grey;
+	border-radius: 2px;
+	color: #cacaca;
+	padding: 3px;
+	font-size: 14px;
+}
+QPushButton{
+	background-color: QLinearGradient(x1:0, y1:0,
+		x2:0, y2:1,
+		stop: 0 #4a4a4a,
+		stop: 0.1 #3a3a3a,
+		stop: 0.5 #323232
+		stop: 1 #2b2b2b
+		);
+		border-radius: 2px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: grey;
+		padding: 5px;
+}
+QPushButton:pressed{
+	background-color: #4a4a4a;
+}
+QPushButton:hover:!pressed{
+	background-color: QLinearGradient(x1:0, y1:0, x2:0, y2:1, stop 0 #595959, stop: 0.1 #464646, stop: 0.5 #383838, stop: 1 #2b2b2b);
+}
+/*QSlider:groove:horizontal{
+	border: 1px solid grey;
+	height: 8px;
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
+	margin: 2px 0;
+}
+QSlider:handle:hotizontal{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
+	border: 1px solid #5c5c5c;
+	width: 10px;
+	margin: -6 0 -6 0;
+	border-radius: 3px;
+}*/
+/*QCheckBox:indicator{
+	image: url(.../...)
+}
+QCheckBox:indicator:checked{
+	image: url(.../...)
+}
+QRadioButton:indicator{
+	image: url(.../...)
+}
+QRadioButton:indicator:checked{
+	image: url(.../...)
+}
+*/
+QComboBox{
+	border: 1px solid gray;
+	border-radius: 2px;
+	padding: 2px 18px 2px 3px;
+	min-width: 2em;
+}
+/*QComboBox:drop-down{
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 20px;
+	border-left-width: 1px;
+	border-left-color: #808080;
+	border-left-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+QComboBox:down-arrow{
+	image: url(.../...)
+}*/
+/*QSpinBox{
+	border: 1px solid #808080;
+}
+QSpinBox:up-button{
+	subcontrol-origin: border;
+	subcontrol-position: top right;
+	width: 16px;
+}
+QSpinBox:down-button{
+	subcontrol-origin: border;
+	subcontrol-position: top right;
+	width: 16px;
+}
+QSpinBox:down-button, QSpinBox:up-button{
+	border: 1px solid #808080;
+	border-bottom: none;
+	border-top: none;
+	border-radius:0;
+}*/
+/*QProgressBar{
+	border: 1px solid grey;
+	border-radius: 2px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 14px;
+}
+QProgressBar:chunk{
+	background-color: #5a5a5a;
+	width: 3px;
+	margin: 1px;
+}*/
